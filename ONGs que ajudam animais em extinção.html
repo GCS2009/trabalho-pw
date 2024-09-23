@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONGs e projetos</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+header {
+    background-color: #000000;
+    box-shadow: 0px 3px 10px #464646;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    color: white;
+}  
+.container .label {
+    font-size: 15px;
+    padding-left: 10px;
+    position: absolute;
+    top: 13px;
+    transition: 0.3s;
+    pointer-events: none;
+} 
+.input {
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0px 7px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+} 
+.input:focus {
+    border: 2px solid transparent;
+    color: #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+} 
+.container .input:valid ~ .label,
+.container .input:focus ~ .label {
+    transition: 0.3s;
+    padding-left: 2px;
+    transform: translateY(-35px);
+} 
+.container .input:valid,
+.container .input:focus {
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+p {
+    font-size: 25px;   
+    margin-left: 17%;
+    margin-right: 17%;
+    color: #fff;
+}
+h1 {
+    text-align: center;
+    font-size: 50x; 
+    margin: 3%;
+    color: #fff;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+h2 {
+    text-align: center;
+    font-size: 35px; 
+    margin: 1%;
+    color: #fff;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+footer{
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+}
+.imgo{
+    margin-right: 17% ;
+    margin-left: 17%;
+    width: 65%;
+    right: 100%;
+    margin-top: 2%;
+}
+</style>
+<head>
+    <body style="background-color: #000000;">
+       <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1><img src="./logo.PNG" alt=""  width="50px" height="50px"></h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="./Trabalho de PW.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="./Doação para animais em perigo de extinção.html" class="nav-link">Doação</a></li>
+                        <li class="nav-item"><a href="./ONGs que ajudam animais em extinção.html" class="nav-link">ONGs e projetos</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <input required="" type="text" name="text" class="input">
+                    <label class="label">Pesquisa</label>
+                 </div>
+            </nav>
+        </header>
+        <h1>ONGs que ajudam animais em extinção</h1>
+        <p>O número de animais em extinção no mundo cresce cada dia mais, decorrente de muitos problemas ambientais bem como da influência do homem na natureza.<br><br>Pesquisas apontam que até 2050, podem ser extinguidas do planeta terra cerca de 1 milhão de espécies animais.<br><br>Diante deste cenário preocupante, pesquisadores, entidades e organizações têm desenvolvido projetos de preservação de espécies em extinção, promovendo ações de conscientização e estratégias para combater as principais causas deste problema.<br><br>Procurámos longa e duramente para encontrar as organizações de conservação da vida selvagem.</p>
+        <img class="imgo" src="https://i.pinimg.com/originals/4b/47/a1/4b47a114f4e07d486f94ecbe7ac592b0.jpg" alt="">
+
+        <h1>As principais organizações de caridade para animais ameaçados de extinção</h1>
+
+        <h2>Defensores da Vida Selvagem</h2>
+        <p>Defensores da Vida Selvagem trabalham incansavelmente tanto no terreno como nos tribunais para proteger e restaurar a vida selvagem ameaçada. O seu trabalho centra-se principalmente na América do Norte, embora esta tenha um alcance mundial fantástico. Os seus esforços de conservação estendem-se ao urso polar, lobos, tartarugas marinhas, tubarões, panteras e peixes-boi. Trabalham a nível político para assegurar que os animais ameaçados sejam protegidos, mas também oferecem conselhos práticos às pessoas que têm de viver ao lado dos ursos!</p>
+        <img class="imgo" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/arara-azul.jpg" alt="">
+
+        <h2>União Internacional para a Conservação da Natureza (UICN)</h2>
+        <p>A UICN é a maior rede mundial de organizações governamentais e da sociedade civil. A sua missão é fornecer às organizações públicas, privadas e não governamentais os conhecimentos necessários para permitir o progresso humano e o desenvolvimento económico, ao mesmo tempo que promove a conservação da vida selvagem. A sua firme convicção é que estas melhorias não podem acontecer independentemente umas das outras.<br><br>A UICN é composta por mais de 1200 organizações membros que trabalham em 160 países. As organizações trabalham em conjunto na recolha de dados sobre biodiversidade. A partir destes dados, obtiveram que 40% do oxigénio do mundo provém das florestas tropicais, 50% dos medicamentos químicos são baseados na natureza e 100% dos nossos alimentos vêm da natureza – precisamos da natureza para nos sustentar. Usando este conhecimento, eles formam indivíduos, comunidades e empresas para existirem da forma mais positiva para o ambiente, ao mesmo tempo que florescem financeiramente.</p>
+        <img class="imgo" src="https://4.bp.blogspot.com/--M6UbjFnq4U/UbfYnJMjxdI/AAAAAAAABEU/b1NHICqq0zc/s1600/oso-polar-cria.jpg" alt="">
+      
+        <h2> Jane Goodall Foundation</h2>
+        <p>Em 1960, Jane Goodall aventurou-se nas florestas de África para poder ver animais selvagens a viver sem perturbação humana. Esta decisão levou à fundação da Fundação Jane Goodall, e abriu o caminho para algumas das mais esclarecedoras pesquisas sobre chimpanzés que alguma vez foram realizadas. A investigação continua até hoje, centrando-se no estado da floresta e nas populações de chimpanzés. Esta investigação é então partilhada com governos e outras agências de protecção para criar políticas de preservação dos animais.</p> 
+        <img class="imgo" src="https://3.bp.blogspot.com/-Vowz5_nyEMo/WniAqEKM6rI/AAAAAAAAMHE/0TLr5aIZsRg4m9ARKJWfQn0YQVBO3Z-JQCLcBGAs/s1600/On%25C3%25A7a%2Bpintada.jpg" alt="">
+      
+        <h2>David Sheldrick Wildlife Trust</h2>
+        <p>O David Sheldrick Wildlife Trust é um dos projectos de salvamento e reabilitação de elefantes órfãos mais bem sucedidos do mundo. A organização foi fundada em 1977 pela Dra. Dame Daphne Sheldrick em memória do seu falecido marido, o famoso naturalista David Sheldrick. A organização concentra-se no combate à caça furtiva e à conservação, bem como no salvamento e criação manual de elefantes e rinocerontes órfãos. Até à data, a fundação já criou com sucesso mais de 150 elefantes bebés e reintegrou-os com sucesso na natureza.</p>
+        <img class="imgo" src="https://static.preparaenem.com/2021/03/boto-real.jpg" alt="">
+      
+        <h2>World Wildlife Fund</h2>
+        <p>A WWF é provavelmente a mais conhecida. A sua missão é a de conservar a natureza e reduzir as ameaças mais prementes à biodiversidade. O âmbito do seu trabalho é enorme, abrangendo oceanos, florestas, vida selvagem, água doce, clima e alimentos. Eles apoiam alguns dos animais mais ameaçados actualmente – pandas gigantes, tigres, elefantes, gorilas, tartarugas marinhas, ursos polares, rinocerontes e baleias.</p>
+         <img class="imgo" src="https://static.todamateria.com.br/upload/ma/ca/macacopregogalego.jpg?auto_optimize=low" alt="">
+      
+        <h2>Gorilla Doctors</h2>
+        <p>The Gorilla Doctors é uma instituição de caridade dedicada à conservação de gorilas selvagens de montanha e de planície oriental. Fazem-no através da medicina veterinária que salva vidas. É a única instituição de caridade que fornece a estes animais criticamente ameaçados de extinção cuidados directos e práticos na natureza. Com apenas 880 gorilas de montanha que restam no mundo, o trabalho que os Médicos Gorilas fazem é essencial. A equipa efectua visitas mensais a todos os grupos habituados de gorilas de montanha para realizar um exame visual de saúde – são tomadas notas cuidadosas para que possam mapear completamente a saúde dos indivíduos. Além disso, os Gorilla Doctors têm ajudado os gorilas bebés gorilas de mão-ar, cujas mães foram mortas por humanos. Este é um trabalho complexo, e fundamental para a sobrevivência desta espécie em declínio.</p>
+        <img class="imgo" src="https://images8.alphacoders.com/871/871666.jpg" alt="">
+      
+        <h2> International Rhino Foundation</h2>
+        <p>A International Rhino Foundation tem vindo a defender a sobrevivência dos rinocerontes do mundo há mais de 25 anos. Faz isto principalmente através da conservação e da investigação, concentrando-se no apoio essencial das bases e trabalhando dentro da comunidade. Compreendem que a mudança deve vir do coração, e concentram os seus esforços em garantir que a população local compreenda as questões-chave em mãos.</p>
+        <img class="imgo" src="https://static.todamateria.com.br/upload/co/nd/condorcaliforniano-0-cke.jpg?auto_optimize=low" alt="">
+      
+        <h2>Fundação Charles Darwin</h2>
+        <p>A Fundação Charles Darwin é conhecida principalmente pelo seu belo logótipo de uma tartaruga gigante. Contudo, a fundação vai muito mais fundo, concentrando-se na investigação dentro das Ilhas Galapgos, e trabalhando para manter este incrível micro-clima tão natural quanto possível. Muitos dos animais que florescem nas Galápagos só podem ser encontrados neste único lugar na Terra, e esta fantástica instituição de caridade está a fazer tudo o que pode para manter este delicado ecossistema durante gerações vindouras.</p>
+        <img class="imgo" src="https://images6.alphacoders.com/596/thumb-1920-596664.jpg" alt="">
+      
+        <h2>World Animal Protection</h2>
+        <p>World Animal Protection é uma instituição de caridade extremamente importante para a Oyster Worldwide. Em 2007 contribuíram para o financiamento inicial e a perícia do santuário do urso na Roménia, onde os nossos voluntários ainda hoje ajudam. Devido ao fantástico sucesso do santuário, o WAP já não está tão estreitamente envolvido, mas têm muitas outras importantes campanhas de bem-estar animal em curso. Um foco importante para eles é salvar ursos da criação da bílis de urso, parando as touradas e impedindo a criação de tartarugas marinhas.</p>
+        <img class="imgo" src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic_2810728.webp?w=1450&h=816" alt="">
+      
+        <h2>FOUR PAWS International</h2>
+        <p>Four Paws foca a sua atenção nos grandes felinos, macacos, cavalos, ursos e vadios domésticos. Tem feito um trabalho impressionante em áreas de catástrofe, onde os animais passam por enormes sofrimentos. Também fazem campanha para acabar com práticas antiéticas, tais como o comércio ilegal de cachorros. A instituição de caridade gere o principal santuário de gatos grandes, LIONSROCK, que lidera o tratamento de gatos grandes em África.</p>
+        <img class="imgo" src="https://s3.static.brasilescola.uol.com.br/be/2023/03/panda-vermelho-arvore.jpg" alt="">
+      
+        <h2>International Animal Rescue</h2>
+        <p>International Animal Rescue’s mission is to save animals from suffering around the world. Os seus esforços visam actualmente o resgate de ursos dançantes na Índia, ursos cativos na Arménia, macacos de estimação ilegais em Java e orangotangos em perigo no Bornéu. Adoptam uma abordagem muito fresca e prática, mantendo os doadores bem actualizados com o progresso dos seus espantosos projectos.</p>
+        <img class="imgo" src="" alt="">
+      
+      
+      
+      
+      
+      
+        <footer>Criador:Gabriel<br>Apoiadores:Tabajara FC</footer>
+ 
+    </body>
+</html>
